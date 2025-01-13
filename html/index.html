@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Whitelist Quiz</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div id="quiz-container">
+        <div class="quiz-header">
+            <i class="fas fa-clipboard-check"></i>
+            <h1>Whitelist Fragebogen</h1>
+            <p>Bitte beantworte alle Fragen korrekt, um auf dem Server spielen zu können. 
+               Du benötigst mindestens 8 von 10 richtigen Antworten.</p>
+        </div>
+        
+        <div class="progress-container">
+            <div class="progress-text">Fortschritt: <span id="progress">0/10</span></div>
+            <div class="progress-bar">
+                <div class="progress-fill"></div>
+            </div>
+        </div>
+
+        <div id="questions">
+            <!-- Fragen werden hier dynamisch eingefügt -->
+        </div>
+
+        <button id="submit-quiz" disabled>
+            <i class="fas fa-check-circle"></i>
+            Antworten überprüfen
+        </button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html> 
