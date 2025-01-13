@@ -4,8 +4,7 @@ Ein modernes und benutzerfreundliches Whitelist-Quiz-System für FiveM Roleplay 
 
 ## 🖼️ Vorschau
 
-![Whitelist Quiz Interface]
-https://i.ibb.co/y69Rdm0/Screenshot-1531.png
+![Whitelist Quiz Interface](https://i.ibb.co/y69Rdm0/Screenshot-1531.png)
 
 ## 📋 Beschreibung
 
